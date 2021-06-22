@@ -3,7 +3,7 @@
 firewall-cmd --zone=public --add-port=19091/tcp --permanent
 firewall-cmd --reload
 
-#安装wget、screen
+#安装wget\screen
 #yum update
 yum install -y wget
 yum install -y screen
