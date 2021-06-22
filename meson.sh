@@ -4,7 +4,7 @@ firewall-cmd --zone=public --add-port=19091/tcp --permanent
 firewall-cmd --reload
 
 #安装screen
-yum update
+#yum update
 yum install -y screen
 
 #下载解压
